@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+/* header */
+header img, footer img {
+    width: 100px;
+}
+header h3, footer h4 {
+    color: gold;
+}
+header{
+    background-color: rgb(107, 100, 100);
+}
+#topnav{
+    padding: 10px 0px;
+}
+#navbar {
+    background-color: black;
+    padding: 15px 0px;
+}
+a:hover {
+    color: rgb(190, 164, 15);
+}
+header button {
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    background-color: grey;
+}
+header button:hover {
+    cursor: pointer;
+    color: gold;
+}
+/* footer */
+footer:not(img){
+    margin: 10px;
+    background-color: rgb(107, 102, 102);
+}
+footer input, footer a{ 
+    display: block;
+}
+footer h3{
+    color: gold;
+}
+img.icon {
+    width: 30px;
+    margin: 10px;
+}
+img.icon:hover {
+    cursor: pointer;
+}
